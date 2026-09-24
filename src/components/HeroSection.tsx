@@ -18,7 +18,7 @@ export const HeroSection: React.FC = () => {
         className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.02] mb-8 text-xs font-mono text-zinc-400 backdrop-blur-sm"
       >
         <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399] animate-pulse"></span>
-        <span>Available for Select High-Impact Missions // Q1-Q2 2025</span>
+        <span>Available for Select High-Impact Missions</span>
       </div>
 
       {/* Main editorial display headline */}
@@ -60,9 +60,9 @@ export const HeroSection: React.FC = () => {
         id="hero-narrative-summary"
         className="text-base sm:text-lg lg:text-xl text-zinc-400 max-w-2xl font-light leading-relaxed mb-12 sm:mb-14"
       >
-        Senior product designer and frontend engineer with{' '}
-        <strong className="text-white font-medium">8+ years of production craft</strong>{' '}
-        turning high-friction business complexity into intuitive, scalable, developer-grade software.
+        Lead UI/UX designer and frontend developer with{' '}
+        <strong className="text-white font-medium">8+ years of production experience</strong>{' '}
+        delivering enterprise web applications, portals, and responsive React and Next.js interfaces.
       </p>
 
       {/* 8-Phase Glowing Node Track */}

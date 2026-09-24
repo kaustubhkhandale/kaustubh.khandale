@@ -6,22 +6,22 @@ export const AchievementsSection: React.FC = () => {
     {
       icon: <Award className="w-6 h-6 text-amber-400" />,
       title: '8+ Years in Production',
-      desc: 'Continuous hands-on software design and frontend engineering in live customer environments.',
+      desc: 'UI/UX and frontend delivery for enterprise web applications, portals, and product interfaces.',
     },
     {
       icon: <Zap className="w-6 h-6 text-cyan-accent" />,
-      title: 'Zero Handoff Loss',
-      desc: 'Seamless translation from Figma auto-layout directly into typed React and Tailwind CSS components.',
+      title: 'Google Project Management',
+      desc: 'Foundations of Project Management certification, issued by Google in 2025.',
     },
     {
       icon: <GitBranch className="w-6 h-6 text-indigo-400" />,
-      title: 'Complex Workflow Simplifier',
-      desc: 'Untangling dense multi-role permission layers in healthcare, logistics, and government applications.',
+      title: 'AWS Cloud Infrastructure',
+      desc: 'Cloud Infrastructure certification issued by Brainovision Solutions India Pvt. Ltd. in 2023.',
     },
     {
       icon: <Gauge className="w-6 h-6 text-emerald-400" />,
-      title: '99+ Core Web Vitals',
-      desc: 'Strict performance budgets, zero layout shift (CLS: 0), minimal time to interactive.',
+      title: 'HackerRank CSS',
+      desc: 'CSS certification issued by HackerRank in 2021.',
     },
   ];
 

@@ -9,11 +9,11 @@ export const Footer: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
-          <span>DESIGNED & ARCHITECTED BY ALEX VANCE</span>
+          <span>DESIGNED & ARCHITECTED BY KAUSTUBH KHANDALE</span>
         </div>
         <div className="flex items-center gap-6">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kaustubh-khandale-084697a9/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-accent transition-colors flex items-center gap-1"
@@ -31,12 +31,12 @@ export const Footer: React.FC = () => {
             <ArrowUpRight className="w-3 h-3" />
           </a>
           <a
-            href="https://figma.com"
+            href="https://kaustubhkhandale.github.io/wp-graphql-toolkit-website"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-cyan-accent transition-colors flex items-center gap-1"
           >
-            <span>Figma Community</span>
+            <span>WPGraphQL Toolkit</span>
             <ArrowUpRight className="w-3 h-3" />
           </a>
         </div>

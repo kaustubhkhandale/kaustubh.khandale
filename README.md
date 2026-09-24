@@ -1,4 +1,4 @@
-# Kaustubh Khandale Portfolio
+# Kaustubh Khandale Portfolio -Gamification Style
 
 This is a Next.js portfolio site built with the App Router.
 

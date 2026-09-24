@@ -152,137 +152,122 @@ export const SKILL_ITEMS: SkillItem[] = [
 export const CASE_STUDIES: CaseStudy[] = [
   {
     id: 'modal-healthcare',
-    missionNumber: 'MISSION 01 // ENTERPRISE',
-    category: 'HEALTHCARE PORTAL',
-    title: 'Healthcare Multi-Portal Ecosystem',
+    missionNumber: 'MISSION 01 // LOGISTICS',
+    category: 'LOGISTICS SERVICES',
+    title: 'LKQ Corporation / Fresh Gravity',
     summary:
-      'Unified triple-portal infrastructure serving Healthcare Practitioners (HCPs), Hospital Administrators, and Internal Compliance Verification Officers. Resolved severe drop-offs through atomic step validation and role-based permissions.',
-    tags: ['UX Architecture', 'Design System', 'React.js', 'Tailwind CSS'],
+      'UI/UX design and frontend implementation for a logistics-services experience, translating enterprise requirements into a clear, responsive interface.',
+    tags: ['Figma', 'HTML', 'CSS', 'JavaScript', 'Angular'],
     metrics: {
-      primaryValue: '-42%',
-      primaryLabel: 'Abandonment Drop-off',
-      secondaryValue: '14,820',
-      secondaryLabel: 'Active Verified HCPs',
+      primaryValue: '2024–25',
+      primaryLabel: 'Engagement Period',
+      secondaryValue: '4 mo',
+      secondaryLabel: 'Delivery Window',
     },
     highlightNote:
-      'Designed reusable 40+ component clinical design system with AA contrast compliance.',
+      'Role: UI/UX Designer and Developer.',
     blueprint: {
-      tag: 'HEALTHCARE BLUEPRINT // CASE 01',
-      title: 'Healthcare Multi-Portal Ecosystem Architecture',
-      challenge:
-        'Three completely disparate user archetypes (Doctors, Hospital Administrators, and Compliance Verifiers) were sharing an archaic single-portal login with conflicting permission levels, resulting in severe registration abandonment and frequent compliance audit citations.',
-      solution:
-        'Architected a unified tokenized design system in Figma with 40+ atomic components. Built a role-gated Next.js App Router application with optimistic form completion, automated OCR credential validation, and an audited compliance timeline component.',
-      stack:
-        'Next.js 14, TypeScript, Tailwind CSS, Zod Validation, React Hook Form, Radix UI Primitives',
+      tag: 'LOGISTICS DELIVERY // CASE 01',
+      title: 'LKQ Corporation / Fresh Gravity',
+      challenge: 'Translate logistics-service requirements into an intuitive, implementation-ready interface.',
+      solution: 'Created the UI/UX direction and supported frontend implementation for responsive enterprise workflows.',
+      stack: 'Figma, HTML, CSS, JavaScript, Angular',
     },
   },
   {
     id: 'modal-energy',
-    missionNumber: 'MISSION 02 // IOT',
-    category: 'ACTIVE SLA',
-    title: 'Renewable Energy Operations Platform',
+    missionNumber: 'MISSION 02 // HEALTHCARE',
+    category: 'HEALTHCARE STAFFING',
+    title: 'Cross Country Healthcare',
     summary:
-      'Tri-part IoT ecosystem: Field Technician Mobile App, Customer Portal, and Operations Control Command Center managing solar equipment telemetry and real-time fault resolution.',
-    tags: ['Next.js', 'Mapbox', 'React', 'Offline Sync'],
+      'UI/UX design and development for a healthcare staffing platform, creating usable workflows across desktop and responsive web experiences.',
+    tags: ['Adobe XD', 'React', 'Next.js', 'Builder.io'],
     metrics: {
-      primaryValue: '-54%',
-      primaryLabel: 'Faster Dispatch Time',
-      secondaryValue: 'PWA Sync',
-      secondaryLabel: 'Offline Protocol',
+      primaryValue: '2022–23',
+      primaryLabel: 'Engagement Period',
+      secondaryValue: '1 yr',
+      secondaryLabel: 'Delivery Window',
     },
     highlightNote:
-      'Offline-first architecture with automatic IndexedDB queue reconciliation when field cellular connection resumes.',
+      'Role: UI/UX Designer and Developer.',
     blueprint: {
-      tag: 'IOT BLUEPRINT // CASE 02',
-      title: 'Renewable Energy Operations Platform',
-      challenge:
-        'Field technicians in remote solar fields frequently lost internet connection, rendering existing web portals useless and causing missed SLAs on critical solar inverter breakdowns.',
-      solution:
-        'Designed an offline-first Progressive Web App with IndexedDB sync queues. Real-time operations map powered by Mapbox GL with aggregated telemetry clustering and one-tap emergency crew dispatch.',
-      stack:
-        'React, Vite, Mapbox GL JS, Tailwind CSS, WebSockets, Workbox PWA',
+      tag: 'HEALTHCARE DELIVERY // CASE 02',
+      title: 'Cross Country Healthcare',
+      challenge: 'Design healthcare staffing workflows that are clear and efficient for web users.',
+      solution: 'Produced wireframes and high-fidelity UI, then supported React and Next.js implementation.',
+      stack: 'Adobe XD, HTML, CSS, JavaScript, React, Next.js, Builder.io',
     },
   },
   {
     id: 'modal-headless',
-    missionNumber: 'MISSION 03 // ARCHITECTURE',
-    category: 'HEADLESS',
-    title: 'Enterprise Headless WP Corporate Portal',
+    missionNumber: 'MISSION 03 // WEARABLE',
+    category: 'WEARABLE APP DESIGN',
+    title: 'TikTik Watch, Band & App UI',
     summary:
-      'Internationalized multi-region website decoupling WordPress CMS via custom WPGraphQL into Next.js App Router for zero-latency static page generation.',
-    tags: ['WPGraphQL', 'Next 14', 'Vercel', 'ISR'],
+      'Ongoing UI/UX work for a wearable watch, band, and companion app, focused on focused interactions and a cohesive product experience.',
+    tags: ['Figma', 'FigJam', 'Wearable UX'],
     metrics: {
-      primaryValue: '99/100',
-      primaryLabel: 'Lighthouse Speed',
-      secondaryValue: '200ms',
-      secondaryLabel: 'Build Time ISR',
+      primaryValue: '2023–Now',
+      primaryLabel: 'Engagement Period',
+      secondaryValue: 'Ongoing',
+      secondaryLabel: 'Project Status',
     },
     highlightNote:
-      'Decoupled publishing experience allowed 80+ content editors to work freely while public users browse cached static edge pages.',
+      'Role: UI/UX Designer.',
     blueprint: {
-      tag: 'ARCHITECTURE BLUEPRINT // CASE 03',
-      title: 'Enterprise Headless WordPress Corporate Platform',
-      challenge:
-        'A global enterprise required custom editorial workflows for 80+ content writers while demanding modern developer experience, instant page loads, and zero PHP database queries on public visits.',
-      solution:
-        'Decoupled WordPress with WPGraphQL. Implemented Incremental Static Regeneration (ISR) in Next.js, allowing editors to publish instantaneously while users enjoy global CDN static delivery with zero CLS layout shift.',
-      stack:
-        'Headless WordPress, WPGraphQL, Next.js App Router, Tailwind CSS, Vercel Edge CDN',
+      tag: 'WEARABLE EXPERIENCE // CASE 03',
+      title: 'TikTik Watch, Band & App UI',
+      challenge: 'Design a connected wearable and companion-app experience that remains clear across small screens and everyday use cases.',
+      solution: 'Developed the product UI/UX direction and interaction flows in Figma and FigJam.',
+      stack: 'Figma, FigJam',
     },
   },
   {
     id: 'modal-booking',
-    missionNumber: 'MISSION 04 // UX ENGINE',
-    category: 'MULTI-STATE',
-    title: 'Frictionless Booking & Scheduling Engine',
+    missionNumber: 'MISSION 04 // FINTECH',
+    category: 'BANKING & MONEY EXCHANGE',
+    title: 'Remit Prime / Prime Bank Mobile UI',
     summary:
-      'Condensing a confusing 7-step enterprise reservation pipeline into an effortless, single-glance interactive state machine with inline calendar slot intelligence.',
-    tags: ['React', 'Tailwind', 'State Machine', 'XState'],
+      'Mobile UI/UX for banking and money-exchange workflows, with user flows designed for clarity in high-trust financial journeys.',
+    tags: ['Figma', 'FigJam', 'Mobile UX'],
     metrics: {
-      primaryValue: '+38%',
-      primaryLabel: 'Conversion Lift',
-      secondaryValue: '58s',
-      secondaryLabel: 'Reduced from a 4.1-min checkout',
+      primaryValue: '2019–22',
+      primaryLabel: 'Engagement Period',
+      secondaryValue: '2 yrs',
+      secondaryLabel: 'Delivery Window',
     },
     highlightNote:
-      'State-machine driven scheduler with smart date heuristics and instant calendar slot detection.',
+      'Role: UI/UX Designer.',
     blueprint: {
-      tag: 'UX ENGINE BLUEPRINT // CASE 04',
-      title: 'Frictionless Booking & Scheduling Engine',
-      challenge:
-        '7-step legacy scheduling funnel suffered a 4.1-minute average completion time and 64% user churn before entering payment details.',
-      solution:
-        'Rebuilt as a single-view, state-machine driven scheduler with smart date heuristics, instant calendar slot detection, and zero superfluous page reloads.',
-      stack:
-        'React, XState, Tailwind CSS, Framer Motion Micro-Interactions, Stripe Elements',
+      tag: 'FINTECH EXPERIENCE // CASE 04',
+      title: 'Remit Prime / Prime Bank Mobile UI',
+      challenge: 'Create banking and money-exchange journeys that make complex actions easier to understand on mobile.',
+      solution: 'Designed user flows and high-fidelity mobile UI patterns for the product experience.',
+      stack: 'Figma, FigJam',
     },
   },
   {
     id: 'modal-rag',
-    missionNumber: 'MISSION 05 // AI UX',
-    category: 'ENTERPRISE RAG',
-    title: 'Gov AI Document Intelligence Platform',
+    missionNumber: 'MISSION 05 // OPEN SOURCE',
+    category: 'WORDPRESS PLUGIN',
+    title: 'KGraph Headless Toolkit for WPGraphQL',
     summary:
-      'Transforming 50,000+ pages of municipal policy and regulatory legal acts into verifiable, grounded conversational answers with instant source sentence highlighting.',
-    tags: ['Figma', 'Next.js', 'Semantic UX', 'PDF Grounding'],
+      'A focused WordPress admin toolkit for building, inspecting, testing, saving, and exporting WPGraphQL queries.',
+    tags: ['WordPress', 'WPGraphQL', 'React', 'TypeScript'],
     metrics: {
-      primaryValue: '96%',
-      primaryLabel: 'Citation Accuracy',
-      secondaryValue: '12x',
-      secondaryLabel: 'Efficiency Lift',
+      primaryValue: 'Live',
+      primaryLabel: 'Plugin Status',
+      secondaryValue: 'OSS',
+      secondaryLabel: 'Project Type',
     },
     highlightNote:
-      'Every synthesized answer provides direct source citations that jump straight into high-resolution PDF viewer bounds.',
+      'Published in the WordPress plugin directory and showcased with a dedicated product website.',
     blueprint: {
-      tag: 'AI UX BLUEPRINT // CASE 05',
-      title: 'Gov AI Document Intelligence Platform',
-      challenge:
-        'Municipal legal researchers spent dozens of hours manually verifying AI citations because typical LLM responses hallucinated policy numbers and statutory references.',
-      solution:
-        'Engineered a split-pane RAG user interface where every generative sentence contains an interactive source badge. Clicking any citation opens the original verified municipal PDF highlighted to the exact sentence.',
-      stack:
-        'Next.js, Tailwind CSS, Python RAG Vector Backend, PDF.js Document Highlighting, Radix UI',
+      tag: 'OPEN-SOURCE RELEASE // CASE 05',
+      title: 'KGraph Headless Toolkit for WPGraphQL',
+      challenge: 'Make common WPGraphQL query and schema-exploration workflows more efficient inside WordPress administration.',
+      solution: 'Built a focused developer tool to build, inspect, test, save, and export WPGraphQL queries.',
+      stack: 'WordPress, WPGraphQL, React, TypeScript',
     },
   },
 ];
@@ -449,39 +434,39 @@ export const DIAGNOSTIC_PROBLEMS: DiagnosticProblem[] = [
 export const TIMELINE_LEVELS: TimelineLevel[] = [
   {
     id: 'lvl-current',
-    levelBadge: 'CURRENT LEVEL',
+    levelBadge: 'LEVEL 04 // CURRENT',
     isCurrent: true,
-    period: '2023 — PRESENT',
-    title: 'Architecting Complete Digital Product Experiences',
+    period: 'MAY 2017 — PRESENT',
+    title: 'Lead UI/UX Designer & Developer · Orangebitsindia',
     description:
-      'Leading end-to-end product design and frontend execution. Architecting AI-assisted search interfaces, complex multi-tenant enterprise dashboards, and headless GraphQL backends with sub-second page performance.',
-    tags: ['Enterprise Strategy', 'Next 15 App Router', 'RAG UX Design'],
+      'Leading UX research, user flows, wireframes, high-fidelity interface systems, and responsive frontend delivery across enterprise portals and web applications.',
+    tags: ['Figma', 'React', 'Next.js', 'Builder.io'],
   },
   {
     id: 'lvl-06-07',
-    levelBadge: 'LEVEL 06-07',
-    period: '2020 — 2023',
-    title: 'Design + Engineering Convergence & Enterprise Portals',
+    levelBadge: 'LEVEL 03',
+    period: 'MAY 2016 — MAY 2017',
+    title: 'Web Designer & Developer · Mastersoft ERP Solutions',
     description:
-      'Senior Product Designer & Frontend Specialist for healthcare and renewable energy platforms. Scaled multi-role permission portals, built unified Figma-to-code component libraries, and decoupled legacy WordPress architectures into modern React stacks.',
-    tags: ['WPGraphQL', 'Tailwind CSS', 'Async Orientations'],
+      'Created wireframes and high-fidelity interfaces, then implemented approved designs with HTML, CSS, JavaScript, and .NET-based frameworks.',
+    tags: ['Wireframes', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     id: 'lvl-04-05',
-    levelBadge: 'LEVEL 04-05',
-    period: '2018 — 2020',
-    title: 'UX Research, Journey Architecture & Design Systems',
+    levelBadge: 'LEVEL 02',
+    period: 'MAY 2015 — MAY 2016',
+    title: 'Web Designer & Developer · Raisoni Group of Institutions',
     description:
-      'Spearheaded user research programs, wireframing, and systemic Figma token definitions. Reduced stakeholder handoff friction by 80% through unified UI kit governance and living storybook components.',
-    tags: ['Design Systems', 'Figma Tokens', 'User Testing'],
+      'Designed WordPress websites and collaborated with developers and stakeholders to deliver clear, usable digital experiences.',
+    tags: ['WordPress', 'Web Design', 'Stakeholder Collaboration'],
   },
   {
     id: 'lvl-01-03',
-    levelBadge: 'LEVEL 01-03',
-    period: '2016 — 2018',
-    title: 'Web Standards, DOM Engineering & Visual Craft',
+    levelBadge: 'LEVEL 01',
+    period: 'JUN 2014 — JAN 2015',
+    title: 'Graphic Designer & Web Designer/Developer · Buldhana Urban Credit Co-op Society',
     description:
-      'Mastering the deep roots: semantic HTML5, clean CSS architecture, responsive typography scales, vanilla JavaScript manipulation, and rigorous cross-browser performance standards.',
-    tags: ['HTML5 / CSS3', 'JavaScript DOM', 'Core Web Vitals'],
+      'Designed banking websites and portal experiences using HTML, CSS, JavaScript, and PHP while working closely with developers and stakeholders.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'PHP'],
   },
 ];

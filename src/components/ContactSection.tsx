@@ -14,7 +14,7 @@ export const ContactSection: React.FC = () => {
   });
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('alex@vancecraft.design').then(() => {
+    navigator.clipboard.writeText('kaustubh.khandale@gmail.com').then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2400);
     });
@@ -103,7 +103,7 @@ export const ContactSection: React.FC = () => {
                 ) : (
                   <>
                     <Copy className="w-3.5 h-3.5 text-cyan-accent" />
-                    <span>Copy: alex@vancecraft.design</span>
+                    <span>Copy: kaustubh.khandale@gmail.com</span>
                   </>
                 )}
               </button>
