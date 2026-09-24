@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@source "../src";
+
+@theme {
+  --color-obsidian: #090a0f;
+  --color-charcoal: #0d0f17;
+  --color-surface: #131722;
+  --color-surface-light: #1b2030;
+  --color-cyan-accent: #00f2fe;
+  --color-cyan-glow: rgba(0, 242, 254, 0.18);
+  --color-cyan-subtle: rgba(0, 242, 254, 0.06);
+
+  --font-sans: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #090a0f;
+  color: #f9fafb;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.editorial-glass {
+  background: rgba(13, 15, 23, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.editorial-card {
+  background: #0d0f17;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  border-color: rgba(0, 242, 254, 0.35);
+  box-shadow: 0 0 25px -5px rgba(0, 242, 254, 0.12);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 45px -10px rgba(0, 242, 254, 0.25);
+}
+
+.cyan-badge {
+  background: rgba(0, 242, 254, 0.08);
+  border: 1px solid rgba(0, 242, 254, 0.25);
+  color: #00f2fe;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b2030;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f2fe;
+}
