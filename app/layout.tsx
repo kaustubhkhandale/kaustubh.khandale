@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { siteMetadata } from './site-metadata';
 
 export const metadata: Metadata = siteMetadata;
@@ -17,6 +18,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="bg-[#090a0f] text-[#f9fafb] selection:bg-[#00f2fe] selection:text-[#090a0f] min-h-screen">
         {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2ESS4YLRJW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2ESS4YLRJW');
+          `}
+        </Script>
       </body>
     </html>
   );
