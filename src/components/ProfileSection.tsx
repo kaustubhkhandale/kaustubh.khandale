@@ -108,15 +108,15 @@ export const ProfileSection: React.FC = () => {
             <div className="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-2xl bg-surface-light border border-white/15 flex items-center justify-center font-serif text-2xl text-cyan-accent shadow-inner">
-                  AV
+                  KK
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-white">Alex Vance</h3>
+                  <h3 className="text-lg font-semibold text-white">Kaustubh Khandale</h3>
                   <p className="text-xs text-zinc-400 font-mono">Lead Product Designer & Architect</p>
                 </div>
               </div>
               <span className="cyan-badge text-[11px] font-mono px-3 py-1 rounded-full font-semibold">
-                LEVEL 08
+                LEVEL 10
               </span>
             </div>
 

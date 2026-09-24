@@ -31,7 +31,7 @@ export const MissionsSection: React.FC<MissionsSectionProps> = ({ onSelectCaseSt
         </p>
       </div>
 
-      {/* Case Study 1: Healthcare Multi-Portal (Hero Feature) */}
+      {/* Featured CV-backed project */}
       <article
         id="case-study-hero-healthcare"
         className="editorial-card rounded-3xl p-6 sm:p-10 lg:p-14 mb-14 relative overflow-hidden group"

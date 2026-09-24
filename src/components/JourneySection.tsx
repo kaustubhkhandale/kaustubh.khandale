@@ -14,7 +14,7 @@ export const JourneySection: React.FC = () => {
             <Milestone className="w-3.5 h-3.5" /> 07 // Progression Log
           </span>
           <h2 className="text-4xl sm:text-5xl font-light text-white tracking-tight mt-2 font-sans">
-            Experience Journey As Levels <br />
+            Career Levels Cleared <br />
             <span className="font-serif italic text-zinc-500">(8+ Years in Production)</span>
           </h2>
         </div>

@@ -1,16 +1,16 @@
 import type { Metadata } from 'next';
 
-const siteName = 'Alex Vance Portfolio';
-const title = 'Alex Vance - Lead Product Designer & Frontend Architect';
+const siteName = 'Kaustubh Khandale Portfolio';
+const title = 'Kaustubh Khandale - Lead UI/UX Designer & Frontend Developer';
 const description =
-  'Senior product designer and frontend engineer with 8+ years of production craft turning high-friction business complexity into intuitive, scalable, developer-grade software.';
+  'Lead UI/UX designer and frontend developer with 8+ years of experience delivering enterprise web applications, portals, and responsive React and Next.js interfaces.';
 
 export const siteMetadata: Metadata = {
   applicationName: siteName,
   title: { default: title, template: `%s | ${siteName}` },
   description,
-  keywords: ['Alex Vance', 'product designer', 'frontend architect', 'design systems', 'portfolio'],
-  authors: [{ name: 'Alex Vance' }],
+  keywords: ['Kaustubh Khandale', 'UI/UX designer', 'frontend developer', 'design systems', 'portfolio'],
+  authors: [{ name: 'Kaustubh Khandale' }],
   openGraph: { type: 'website', title, description, siteName },
   twitter: { card: 'summary_large_image', title, description },
   robots: { index: true, follow: true },

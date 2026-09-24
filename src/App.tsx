@@ -15,6 +15,7 @@ import { DiagnosticSection } from './components/DiagnosticSection';
 import { AchievementsSection } from './components/AchievementsSection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
+import { ScrollReveal } from './components/ScrollReveal';
 import { CaseStudy } from './types';
 
 export default function App() {
@@ -30,16 +31,16 @@ export default function App() {
 
       {/* Main page content */}
       <main className="relative z-10">
-        <HeroSection />
-        <ProfileSection />
-        <SkillsSection />
-        <MissionsSection onSelectCaseStudy={(cs) => setSelectedCaseStudy(cs)} />
-        <CognitivePipelineSection />
-        <SuperpowerSection />
-        <JourneySection />
-        <DiagnosticSection />
-        <AchievementsSection />
-        <ContactSection />
+        <ScrollReveal><HeroSection /></ScrollReveal>
+        <ScrollReveal><ProfileSection /></ScrollReveal>
+        <ScrollReveal><SkillsSection /></ScrollReveal>
+        <ScrollReveal><MissionsSection onSelectCaseStudy={(cs) => setSelectedCaseStudy(cs)} /></ScrollReveal>
+        <ScrollReveal><CognitivePipelineSection /></ScrollReveal>
+        <ScrollReveal><SuperpowerSection /></ScrollReveal>
+        <ScrollReveal><JourneySection /></ScrollReveal>
+        <ScrollReveal><DiagnosticSection /></ScrollReveal>
+        <ScrollReveal><AchievementsSection /></ScrollReveal>
+        <ScrollReveal><ContactSection /></ScrollReveal>
       </main>
 
       {/* Minimal Footer */}
