@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X, ArrowUpRight, Sparkles } from 'lucide-react';
+import { InterfaceSounds } from './InterfaceSounds';
 
 interface HeaderNavProps {
   activeSection: string;
@@ -61,6 +62,7 @@ export const HeaderNav: React.FC<HeaderNavProps> = () => {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          <InterfaceSounds />
           <Link
             id="nav-hire-btn"
             href="/#contact"

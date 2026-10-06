@@ -6,6 +6,8 @@ const basePath = process.env.GITHUB_ACTIONS === 'true' && repositoryName && !isU
   : '';
 
 const nextConfig = {
+  // Keep production builds from overwriting a running development server's assets.
+  distDir: process.env.NODE_ENV === 'development' ? '.next-dev' : '.next',
   reactStrictMode: true,
   output: 'export',
   trailingSlash: true,
