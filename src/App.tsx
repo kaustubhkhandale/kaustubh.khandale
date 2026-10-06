@@ -17,6 +17,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ScrollReveal } from './components/ScrollReveal';
 import { CaseStudy } from './types';
+import { MenuMusic } from './components/MenuMusic';
 
 export default function App() {
   const [selectedCaseStudy, setSelectedCaseStudy] = useState<CaseStudy | null>(null);
@@ -28,6 +29,7 @@ export default function App() {
 
       {/* Global floating glass navigation header */}
       <HeaderNav activeSection="hero" />
+      <MenuMusic />
 
       {/* Main page content */}
       <main className="relative z-10">
